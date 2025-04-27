@@ -1,0 +1,33 @@
+header {
+    height: 40px;
+    background-color:   #007bff;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: rgb(210, 210, 210);
+    font-weight: bold;
+    font-size : 1.2rem;
+}
+
+nav ul li a:hover {
+    color: white;
+}
